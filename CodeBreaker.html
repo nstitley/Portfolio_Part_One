@@ -1,0 +1,22 @@
+<html>
+   <head>
+      <title>Codebreaker!</title>
+      <meta charset="utf-8">
+      <script type="text/javascript" src="Project1.js"></script>
+   </head> 
+   <body>
+      <form name="userGuess" id="userGuess" action="#">
+         <label for="guess">Your Guess:</label>
+         <input type="text" onfocus="this.value=''" name="guess" id="guess"> 
+         <input type="button" value="Make Your Guess" onclick="Project1.onClick();">
+      </form>
+      <table id="output">
+         <tr>
+            <th>Guess</th>
+            <th>Correct</th>
+            <th>Misplaced</th>
+         </tr>
+      </table>
+      <div id="results"></div>
+   </body> 
+</html>
