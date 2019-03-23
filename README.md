@@ -16,16 +16,16 @@ Example: If you are gonna use Notepad++, make a new document in Notepad++ and sa
 
 Here is some sample code for HTML:
 
-<html>
-   <head>
-      <title>Codebreaker!</title>
-      <meta charset="utf-8">
-      <script type="text/javascript" src="p1.js"></script>
-   </head> 
-   <body>
-      <div id="results"></div>
-   </body> 
-</html>
+(html)
+   (head)
+      (title)Codebreaker!(/title)
+      (meta charset="utf-8")
+      (script type="text/javascript" src="p1.js")(/script)
+   (/head) 
+   (body)
+      (div id="results")(/div)
+   (/body) 
+(/html)
 
 ## Running the program
 
