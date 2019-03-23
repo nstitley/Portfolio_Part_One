@@ -4,28 +4,34 @@ In this program, the computer will randomly generate a secret numeric code. Howe
 
 ## Getting Started
 
-When you are on the project page [Code Breaker](https://github.com/nstitley), you can press the 'Download ZIP' button which is located under the "Clone or Download" drop down box. This will allow you to download the most recent version of the code as a zip archive.
+When you are on the project page [Code Breaker](https://github.com/nstitley/Portfolio_Part_One), you can press the 'Download ZIP' button which is located under the "Clone or Download" drop down box. This will allow you to download the most recent version of the code as a zip archive.
+
 If you are not able to see the drop down box, it could because you are not on correct page. Look for a button on the left-most tab that you are allowed to click, which is labeled "<> Code".
 
 ## Prerequisites
 
-For running JavaScript, you NEED a browser. You can use a text editor or just use the browser's web console. Personally, I use Firefox for the browser and Notepad++ as a text editor.
+For running JavaScript, you NEED a browser. You can use a text editor or just use the browser's scratchpad. Personally, I use Firefox for the browser and Notepad++ as the text editor.
 
 Example: If you are gonna use Notepad++, make a new document in Notepad++ and save that document as a HTML document.
 
-Here is some sample code:
+Here is some sample code for HTML:
 
-<script type="text/javascript"> (this tag is communicating with the browser that the programmer is running javascript code)
-
-alert("Sample Code!");
-
-</script>
+<html>
+   <head>
+      <title>Codebreaker!</title>
+      <meta charset="utf-8">
+      <script type="text/javascript" src="p1.js"></script>
+   </head> 
+   <body>
+      <div id="results"></div>
+   </body> 
+</html>
 
 ## Running the program
 
 When you want run and/or test the program, you will have to first extract the files within the archive to a new folder. You will want to make sure that both files are within the same folder. Now you will be able to open the HTML file within the browser that you are using. The program should begin running within your browser. You can also utilize the web console to see certain outputs for testing cases.
 
-## Program Discussion
+## Program Discussion (Logic)
 
 In response to each of the player's guesses, the computer provides clues which can help the player to crack the code through a process of deduction. The computer checks the digits guessed by the player, compares each of the digits to every one of the digits in the secret code, and determines whether each digit in the player's guess is of the correct identity and in the correct place (these are the "correct" digits), or whether each digit is of the correct identity but is not in the correct place (these are the "misplaced" digits).
 
