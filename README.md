@@ -1,6 +1,6 @@
 # Code Breaker
 
-In this program, the computer will randomly generate a secret numeric code. However, depending on the level of difficulty the user specifies within the program, the code will be either three digits in length or four digits in length. These digits will be composed of digits ranging either from one through six or from one through nine. This also depends on which difficulty setting the user chose. The user's task is to guess all of the digits of the secret code, in the correct order, and in the least possible number of guesses. However, if the user is unable to guess the secret code after twelve guesses, the game is over.
+In this program, the computer will randomly generate a secret numeric code. However, depending on the level of difficulty the user specifies within the program, the code will be either three digits in length or four digits in length. These digits will be composed of digits ranging either from one through six or from one through nine. This also depends on which difficulty setting the user specifies. The user's task is to guess all of the digits of the secret code, in the correct order, and in the least possible number of guesses. However, if the user is unable to guess the secret code after twelve guesses, the game is over.
 
 ## Getting Started
 
