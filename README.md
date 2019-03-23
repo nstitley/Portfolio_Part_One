@@ -16,6 +16,8 @@ Example: If you are gonna use Notepad++, make a new document in Notepad++ and sa
 
 Here is some sample code for HTML:
 
+In order to get the HTML tags to show up I had to replace <> with (). The spacing isn't showing up correctly either, but if you want to see how it actually looks, click the button at the top-right that says "Raw."
+
 (html)
    (head)
       (title)Codebreaker!(/title)
